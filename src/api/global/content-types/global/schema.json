@@ -16,17 +16,17 @@
       "type": "string",
       "required": true
     },
-    "favicon": {
+    "faviconx": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": ["images", "files", "videos"]
     },
-    "siteDescription": {
+    "siteDescriptionx": {
       "type": "text",
       "required": true
     },
-    "defaultSeo": {
+    "defaultSeox": {
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
